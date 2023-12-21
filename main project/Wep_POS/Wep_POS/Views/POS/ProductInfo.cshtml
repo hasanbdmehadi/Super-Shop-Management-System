@@ -1,0 +1,100 @@
+﻿@model Wep_POS.ProductInfo
+@{
+    ViewBag.Title = "ProductInfo";
+}
+@*<link href="~/Content/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+<link href="~/Content/ui.jqgrid.css" rel="stylesheet" />
+
+
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/JS/jquery/i18n/grid.locale-en.js"></script>
+<script src="~/Scripts/JS/jquery/jquery.jqGrid.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.min.js"></script>*@
+<script src="~/Scripts/JS/ProductInfo.js"></script>
+
+
+@using(@Html.BeginForm())
+{   <div class="FormName">Product Info </div>
+    <div class="MainDiv">
+    <div class="LeftPart">
+       
+        @Html.HiddenFor(m=>m.Product_SlNo)
+    
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ProductCode, "Product Code")
+                   </div> <div>
+        @Html.TextBoxFor(m=>m.ProductCode,  new { @class = "required" })
+    </div>
+        </div>
+    
+   <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ProductName, "Product Name")
+                   </div> <div>
+        @Html.TextBoxFor(m=>m.ProductName, new { @class = "required" })
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Product_Barcode, "Product Barcode")
+                   </div> <div>
+        @Html.TextBoxFor(m=>m.Product_Barcode)
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ProductType)
+                   </div> <div>
+        @Html.TextBoxFor(m=>m.ProductType,  new { @class = "required" })
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ProductCategory_SlNo, "Product Category Sl No")
+                  </div>  <div>
+        @Html.DropDownListFor(m => m.ProductCategory_SlNo, (SelectList)ViewData["VdProductList"], "--------Choose Product-----------")
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ReorderLevel)
+                  </div>  <div>
+        @Html.TextBoxFor(m=>m.ReorderLevel,  new { @class = "required" })
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Purchase_Rate, "Purchase Rate")
+                 </div>   <div>
+        @Html.TextBoxFor(m=>m.Purchase_Rate)
+    </div>
+                    </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Sell_Rate, " Sell Rate")
+              </div>      <div>
+        @Html.TextBoxFor(m=>m.Sell_Rate)
+    </div>
+                    </div>
+     
+     <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Note)
+                </div>    <div>
+        @Html.TextBoxFor(m=>m.Note)
+    </div>
+    </div>
+    
+    <div  class="CustombuttonOnePart">
+        <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Save" id="btnSave" /> 
+        <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Update" id="btnUpdate" />       
+    </div>
+      <div>
+        <table id="tblProductInfo"></table>
+        <div id="ProductInfoPager"></div>
+    </div>
+            </div>
+    </div>
+        
+}

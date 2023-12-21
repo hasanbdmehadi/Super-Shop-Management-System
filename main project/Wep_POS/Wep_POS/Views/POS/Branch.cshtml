@@ -1,0 +1,81 @@
+﻿@model Wep_POS.Branch
+@{
+    ViewBag.Title = "Branch";
+}
+
+<script src="~/Scripts/JS/Branch.js"></script>
+@using (Html.BeginForm())
+{
+    <div class="FormName">Branch</div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+    
+    @Html.HiddenFor(m=>m.BranchSlNo)
+   
+        
+     <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.BranchName,"Branch Name")
+                    </div><div>
+        @Html.TextBoxFor(m=>m.BranchName, new { @class = "required" })
+        </div>
+         </div>
+   
+   <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.BankSlNo,"Bank Serial No")
+                    </div><div>
+        @Html.DropDownListFor(m=>m.BankSlNo,(SelectList)ViewData["VdBankList"],"---------------------------Choose Bank---------------------------")
+        </div>
+       </div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Company_SlNo,"Company Serial No")
+                    </div><div>
+         @Html.DropDownListFor(m=>m.Company_SlNo,(SelectList)ViewData["VdCompanyList"],"---------------------------Choose Company---------------------------", new { @class = "required" })
+        </div></div>
+   <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Address)
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Address, new { @class = "required" })
+        </div></div>
+   <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Phone)
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Phone)
+        </div></div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Mobile, new { @class = "required" })
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Mobile)
+        </div></div>
+     <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Email)
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Email)
+        </div></div>
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Note)
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Note)
+         </div></div>
+     
+       
+        <div class="CustombuttonOnePart">
+    <input type="button" Value="Save" id="btnSave"/>
+        <input type="button" value="Update" id="btnUpdate">
+        </div>
+            
+     <div>
+        <table id="Branch"></table>
+        <div id="BranchPager"></div>
+    </div>
+        </div>
+        </div>
+    
+}

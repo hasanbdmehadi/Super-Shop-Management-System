@@ -1,0 +1,41 @@
+﻿@model Wep_POS.PaymentType
+@{
+    ViewBag.Title = "Tbl_PaymentType";
+}
+
+@*<link href="~/Content/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+<link href="~/Content/ui.jqgrid.css" rel="stylesheet" />
+
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery/i18n/grid.locale-en.js"></script>
+<script src="~/Scripts/jquery/jquery.jqGrid.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.20.min.js"></script>*@
+<script src="~/Scripts/JS/PaymentType.js"></script>
+
+@using (@Html.BeginForm())
+{
+     <div class="FormName">Payment Type</div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+        @Html.HiddenFor(m=>m.PaymentTypeSlNo)
+     
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.PaymentTypeName,"Payment Type Name")
+                      </div><div>
+        @Html.TextBoxFor(m=>m.PaymentTypeName, new { @class = "required" })
+      </div>
+         </div>
+  
+        <div class="CustombuttonOnePart">
+    <input type="button" Value="Save" id="btnSave"/>
+        <input type="button" value="Update" id="btnUpdate">
+        </div>
+    <div>
+        <table id="PaymentType"></table>
+        <div id="PaymentTypePager"></div>
+    </div>
+    </div>
+        </div>
+  
+}

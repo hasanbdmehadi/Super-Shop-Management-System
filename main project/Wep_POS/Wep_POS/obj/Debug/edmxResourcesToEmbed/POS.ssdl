@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="POSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="POSModelStoreContainer">
+    <EntitySet Name="Bank" EntityType="POSModel.Store.Bank" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Branch" EntityType="POSModel.Store.Branch" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Company" EntityType="POSModel.Store.Company" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CompanyBranch" EntityType="POSModel.Store.CompanyBranch" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CustomerInfo" EntityType="POSModel.Store.CustomerInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentType" EntityType="POSModel.Store.PaymentType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductCategory" EntityType="POSModel.Store.ProductCategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductInfo" EntityType="POSModel.Store.ProductInfo" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankSlNo" />
+    </Key>
+    <Property Name="BankSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Company_SlNo" Type="int" Nullable="false" />
+    <Property Name="BankName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Note" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="Creator" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="varchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="BranchSlNo" />
+    </Key>
+    <Property Name="BranchSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Company_SlNo" Type="int" Nullable="false" />
+    <Property Name="BankSlNo" Type="int" Nullable="false" />
+    <Property Name="BranchName" Type="varchar" Nullable="false" MaxLength="80" />
+    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="120" />
+    <Property Name="Phone" Type="varchar" MaxLength="12" />
+    <Property Name="Mobile" Type="varchar" Nullable="false" MaxLength="11" />
+    <Property Name="Email" Type="varchar" MaxLength="40" />
+    <Property Name="Note" Type="varchar" MaxLength="150" />
+    <Property Name="Status" Type="nchar" MaxLength="1" />
+    <Property Name="Creator" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="varchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Company_SlNo" />
+    </Key>
+    <Property Name="Company_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Company_Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Company_Description" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Company_Logo" Type="image" />
+  </EntityType>
+  <EntityType Name="CompanyBranch">
+    <Key>
+      <PropertyRef Name="Branch_SlNo" />
+    </Key>
+    <Property Name="Branch_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Branch_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Branch_Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Branch_Descriptiopn" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CustomerInfo">
+    <Key>
+      <PropertyRef Name="CustomerSlNo" />
+    </Key>
+    <Property Name="CustomerSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerCode" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="CustomerName" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="CustomerType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Propietor" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="ContactPerson" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Mobile" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="eMail" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="VATRegNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DiscountPercent" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DistributorPoint" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="Creator" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="varchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PaymentType">
+    <Key>
+      <PropertyRef Name="PaymentTypeSlNo" />
+    </Key>
+    <Property Name="PaymentTypeSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentTypeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="Creator" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="varchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="ProductCategory_SlNo" />
+    </Key>
+    <Property Name="ProductCategory_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductCategory_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="Creator" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="varchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProductInfo">
+    <Key>
+      <PropertyRef Name="Product_SlNo" />
+    </Key>
+    <Property Name="Product_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProductName" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="Product_Barcode" Type="nvarchar" MaxLength="150" />
+    <Property Name="ProductType" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProductCategory_SlNo" Type="int" Nullable="false" />
+    <Property Name="ReorderLevel" Type="int" Nullable="false" />
+    <Property Name="Purchase_Rate" Type="money" Nullable="false" />
+    <Property Name="Sell_Rate" Type="money" Nullable="false" />
+    <Property Name="ProductImage" Type="image" />
+    <Property Name="Note" Type="varchar" MaxLength="200" />
+    <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModificationDate" Type="datetime" />
+  </EntityType>
+</Schema>

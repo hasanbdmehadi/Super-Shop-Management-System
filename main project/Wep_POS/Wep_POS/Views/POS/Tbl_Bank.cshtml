@@ -1,0 +1,52 @@
+﻿@model Wep_POS.Bank
+@{
+    ViewBag.Title = "Bank";
+}
+
+
+<script src="~/Scripts/JS/Tbl_Bank.js"></script>
+
+@using(@Html.BeginForm())
+{
+    <div class="FormName">Bank</div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+        @Html.HiddenFor(m=>m.BankSlNo,"Bank Si No")
+     
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Company_SlNo,"Company Si No")
+                         </div>
+                <div>
+   @Html.DropDownListFor(m=>m.Company_SlNo,(SelectList)ViewData["VdCompanyList"],"------------------------Choose Company------------------------")
+    </div>
+    </div>
+            <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.BankName,"Bank Name")
+                              </div>
+                <div>
+        @Html.TextBoxFor(m=>m.BankName)
+    </div>
+    </div>
+             <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Note)
+                                   </div>
+                <div>
+        @Html.TextBoxFor(m=>m.Note)
+    </div>
+    </div>
+   
+      <div class="CustombuttonOnePart">
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Save" id="btnSave" />
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Update" id="btnUpdate" />
+            </div>
+    <div>
+        <table id="Bank"></table>
+        <div id="BankPager"></div>
+    </div>
+            </div>
+        </div>
+    
+}

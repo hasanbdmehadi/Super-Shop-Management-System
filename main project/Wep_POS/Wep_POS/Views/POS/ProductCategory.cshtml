@@ -1,0 +1,33 @@
+﻿@model Wep_POS. ProductCategory
+@{
+    ViewBag.Title = "ProductCategory";
+}
+
+<script src="~/Scripts/JS/ProductCategory.js"></script>
+
+@using (@Html.BeginForm())
+{    <div class="FormName">Product Category </div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+            @Html.HiddenFor(m => m.ProductCategory_SlNo)
+           
+            <div class="LeftRow">
+                <div class="LeftColumn">
+                    @Html.LabelFor(m => m.ProductCategory_Name, "Product Category Name")
+                </div>
+                <div>
+                    @Html.TextBoxFor(m => m.ProductCategory_Name, new { @class = "required" })
+                </div>
+            </div>
+           
+           <div class="CustombuttonOnePart">
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Save" id="btnSave" />
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Update" id="btnUpdate" />
+            </div>
+            <div>
+                <table id="tblProductCategory"></table>
+                <div id="ProductCategoryPager"></div>
+            </div>
+        </div>
+    </div>
+}

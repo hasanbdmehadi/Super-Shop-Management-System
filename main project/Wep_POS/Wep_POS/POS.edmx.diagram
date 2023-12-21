@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be7d1f2ba996463f909d9560c2ed5f0e" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="POSModel.Company" Width="1.5" PointX="9.6639801476448675" PointY="8.5380007962407554" />
+        <EntityTypeShape EntityType="POSModel.CompanyBranch" Width="1.5" PointX="9.3337783745181646" PointY="10.316328709161063" />
+        <EntityTypeShape EntityType="POSModel.CustomerInfo" Width="1.5" PointX="5.76559778385125" PointY="2.1533884267105665" />
+        <EntityTypeShape EntityType="POSModel.PaymentType" Width="1.5" PointX="11.939556973026861" PointY="5.5266956414686028" />
+        <EntityTypeShape EntityType="POSModel.ProductCategory" Width="1.5" PointX="10.211975728260342" PointY="24.519920137021654" />
+        <EntityTypeShape EntityType="POSModel.ProductInfo" Width="1.5" PointX="5.6471286013941882" PointY="10.968772192936751" />
+        <EntityTypeShape EntityType="POSModel.Branch" Width="1.5" PointX="8.1907536611849228" PointY="24.934050944137411" />
+        <EntityTypeShape EntityType="POSModel.Bank" Width="1.5" PointX="11.499311646213435" PointY="9.3076860351989446" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

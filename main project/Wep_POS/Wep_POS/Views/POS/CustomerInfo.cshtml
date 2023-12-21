@@ -1,0 +1,117 @@
+﻿@model Wep_POS.CustomerInfo
+@{
+    ViewBag.Title = "CustomerInfo";
+}
+
+
+<script src="~/Scripts/JS/CustomerInfo.js"></script>
+
+@using(@Html.BeginForm())
+{
+   <div class="FormName">Customer Info</div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+    
+        @Html.HiddenFor(m=>m.CustomerSlNo)
+      
+      <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.CustomerCode,"Cusotmer Code")
+                    </div><div>
+        @Html.TextBoxFor(m=>m.CustomerCode, new { @class = "required" })
+    </div>
+    </div>
+             <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.CustomerName,"Customer Name")
+                     </div><div>
+        @Html.TextBoxFor(m=>m.CustomerName, new { @class = "required" })
+    </div>
+    </div>
+             <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.CustomerType,"Customer Type")
+                       </div><div>
+        @Html.TextBoxFor(m=>m.CustomerType, new { @class = "required" })
+    </div>
+    </div>
+              <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Propietor)
+                        </div><div>
+        @Html.TextBoxFor(m=>m.Propietor)
+    </div>
+    </div>
+            <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.ContactPerson,"Contact Person")
+                     </div><div>
+        @Html.TextBoxFor(m=>m.ContactPerson, new { @class = "required" })
+    </div>
+    </div>
+             <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Address)
+                     </div><div>
+        @Html.TextBoxFor(m=>m.Address)
+    </div>
+    </div>
+            <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Phone)
+           </div><div>
+        @Html.TextBoxFor(m=>m.Phone, new { @class = "required" })
+    </div>
+    </div>
+               <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Mobile)
+                    </div><div>
+        @Html.TextBoxFor(m=>m.Mobile)
+    </div>
+     </div>
+            <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.eMail)
+                      </div><div>
+        @Html.TextBoxFor(m=>m.eMail)
+    </div>
+     </div>
+           <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.VATRegNo,"Vat Reg. No")
+                        </div><div>
+        @Html.TextBoxFor(m=>m.VATRegNo, new { @class = "required" })
+    </div>
+     </div>
+          <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.DiscountPercent,"Discount Percent")
+                     </div><div>
+        @Html.TextBoxFor(m=>m.DiscountPercent)
+    </div>
+     </div>
+          <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.DistributorPoint,"Distributior Point")
+                     </div><div>
+        @Html.TextBoxFor(m=>m.DistributorPoint, new { @class = "required" })
+    </div>
+    </div>
+       
+          
+        <div class="CustombuttonOnePart">
+    <input type="button" Value="Save" id="btnSave"/>
+        <input type="button" value="Update" id="btnUpdate">
+        </div>
+    <div>
+        <table id="CustomerInfo"></table>
+        <div id="CustomerInfoPager"></div>
+    </div>
+   </div>
+        </div>
+    
+       
+   
+    
+}

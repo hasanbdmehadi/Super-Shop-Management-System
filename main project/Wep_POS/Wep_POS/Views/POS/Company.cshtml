@@ -1,0 +1,44 @@
+﻿@model Wep_POS.Company
+@{
+    ViewBag.Title = "Companey";
+}
+
+
+<script src="~/Scripts/JS/Company.js"></script>
+
+
+@using (Html.BeginForm())
+{
+    <div class="FormName">Company Info </div>
+    <div class="MainDiv">
+        <div class="LeftPart">
+        @Html.HiddenFor(m=>m.Company_SlNo)
+
+    <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Company_Name,"Company Name")
+                     </div>
+                <div>
+        @Html.TextBoxFor(m=>m.Company_Name, new { @class = "required" })
+        </div>
+        </div>
+ <div class="LeftRow">
+                <div class="LeftColumn">
+        @Html.LabelFor(m=>m.Company_Description,"Company Description")
+                        </div>
+                <div>
+        @Html.TextBoxFor(m=>m.Company_Description, new { @class = "required" })
+        </div>
+     </div>
+           <div class="CustombuttonOnePart">
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Save" id="btnSave" />
+                <input class="ac-inputs ui-button ui-widget ui-state-default ui-corner-all" type="button" value="Update" id="btnUpdate" />
+            </div>
+            
+    <div>
+        <table id="Company"></table>
+        <div id="CompanyPager"></div>
+    </div>
+                </div>
+     </div>
+}

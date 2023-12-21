@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="POSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="POSModelStoreContainer">
+          <EntitySet Name="Bank" EntityType="POSModel.Store.Bank" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Branch" EntityType="POSModel.Store.Branch" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Company" EntityType="POSModel.Store.Company" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CompanyBranch" EntityType="POSModel.Store.CompanyBranch" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CustomerInfo" EntityType="POSModel.Store.CustomerInfo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PaymentType" EntityType="POSModel.Store.PaymentType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProductCategory" EntityType="POSModel.Store.ProductCategory" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProductInfo" EntityType="POSModel.Store.ProductInfo" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Bank">
+          <Key>
+            <PropertyRef Name="BankSlNo" />
+          </Key>
+          <Property Name="BankSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Company_SlNo" Type="int" Nullable="false" />
+          <Property Name="BankName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Note" Type="varchar" MaxLength="50" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+          <Property Name="Creator" Type="varchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="varchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="BranchSlNo" />
+          </Key>
+          <Property Name="BranchSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Company_SlNo" Type="int" Nullable="false" />
+          <Property Name="BankSlNo" Type="int" Nullable="false" />
+          <Property Name="BranchName" Type="varchar" Nullable="false" MaxLength="80" />
+          <Property Name="Address" Type="varchar" Nullable="false" MaxLength="120" />
+          <Property Name="Phone" Type="varchar" MaxLength="12" />
+          <Property Name="Mobile" Type="varchar" Nullable="false" MaxLength="11" />
+          <Property Name="Email" Type="varchar" MaxLength="40" />
+          <Property Name="Note" Type="varchar" MaxLength="150" />
+          <Property Name="Status" Type="nchar" MaxLength="1" />
+          <Property Name="Creator" Type="varchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="varchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="Company_SlNo" />
+          </Key>
+          <Property Name="Company_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Company_Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="Company_Description" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="Company_Logo" Type="image" />
+        </EntityType>
+        <EntityType Name="CompanyBranch">
+          <Key>
+            <PropertyRef Name="Branch_SlNo" />
+          </Key>
+          <Property Name="Branch_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Branch_ID" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Branch_Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Branch_Descriptiopn" Type="nvarchar" Nullable="false" MaxLength="500" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+          <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="CustomerInfo">
+          <Key>
+            <PropertyRef Name="CustomerSlNo" />
+          </Key>
+          <Property Name="CustomerSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerCode" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="CustomerName" Type="varchar" Nullable="false" MaxLength="150" />
+          <Property Name="CustomerType" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Propietor" Type="varchar" Nullable="false" MaxLength="150" />
+          <Property Name="ContactPerson" Type="varchar" Nullable="false" MaxLength="150" />
+          <Property Name="Address" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Mobile" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="eMail" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="VATRegNo" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="DiscountPercent" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="DistributorPoint" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="Creator" Type="varchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="varchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PaymentType">
+          <Key>
+            <PropertyRef Name="PaymentTypeSlNo" />
+          </Key>
+          <Property Name="PaymentTypeSlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PaymentTypeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="10" />
+          <Property Name="Creator" Type="varchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="varchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ProductCategory">
+          <Key>
+            <PropertyRef Name="ProductCategory_SlNo" />
+          </Key>
+          <Property Name="ProductCategory_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductCategory_Name" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+          <Property Name="Creator" Type="varchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="varchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ProductInfo">
+          <Key>
+            <PropertyRef Name="Product_SlNo" />
+          </Key>
+          <Property Name="Product_SlNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ProductName" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="Product_Barcode" Type="nvarchar" MaxLength="150" />
+          <Property Name="ProductType" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ProductCategory_SlNo" Type="int" Nullable="false" />
+          <Property Name="ReorderLevel" Type="int" Nullable="false" />
+          <Property Name="Purchase_Rate" Type="money" Nullable="false" />
+          <Property Name="Sell_Rate" Type="money" Nullable="false" />
+          <Property Name="ProductImage" Type="image" />
+          <Property Name="Note" Type="varchar" MaxLength="200" />
+          <Property Name="Status" Type="nchar" Nullable="false" MaxLength="1" />
+          <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreationDate" Type="datetime" />
+          <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+          <Property Name="ModificationDate" Type="datetime" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="POSModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="POSEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Companies" EntityType="POSModel.Company" />
+          <EntitySet Name="CompanyBranches" EntityType="POSModel.CompanyBranch" />
+          <EntitySet Name="CustomerInfoes" EntityType="POSModel.CustomerInfo" />
+          <EntitySet Name="PaymentTypes" EntityType="POSModel.PaymentType" />
+          <EntitySet Name="ProductCategories" EntityType="POSModel.ProductCategory" />
+          <EntitySet Name="ProductInfoes" EntityType="POSModel.ProductInfo" />
+          <EntitySet Name="Branches" EntityType="POSModel.Branch" />
+          <EntitySet Name="Banks" EntityType="POSModel.Bank" />
+        </EntityContainer>
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="Company_SlNo" />
+          </Key>
+          <Property Type="Int32" Name="Company_SlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Company_Name" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Company_Description" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Binary" Name="Company_Logo" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="CompanyBranch">
+          <Key>
+            <PropertyRef Name="Branch_SlNo" />
+          </Key>
+          <Property Type="Int32" Name="Branch_SlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Branch_ID" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Branch_Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Branch_Descriptiopn" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="CustomerInfo">
+          <Key>
+            <PropertyRef Name="CustomerSlNo" />
+          </Key>
+          <Property Type="Int32" Name="CustomerSlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="CustomerCode" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CustomerName" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CustomerType" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Propietor" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ContactPerson" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Address" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Phone" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Mobile" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="eMail" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="VATRegNo" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DiscountPercent" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DistributorPoint" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="PaymentType">
+          <Key>
+            <PropertyRef Name="PaymentTypeSlNo" />
+          </Key>
+          <Property Type="Int32" Name="PaymentTypeSlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="PaymentTypeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="ProductCategory">
+          <Key>
+            <PropertyRef Name="ProductCategory_SlNo" />
+          </Key>
+          <Property Type="Int32" Name="ProductCategory_SlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ProductCategory_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="ProductInfo">
+          <Key>
+            <PropertyRef Name="Product_SlNo" />
+          </Key>
+          <Property Type="Int32" Name="Product_SlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ProductCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ProductName" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Product_Barcode" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ProductType" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="ProductCategory_SlNo" Nullable="false" />
+          <Property Type="Int32" Name="ReorderLevel" Nullable="false" />
+          <Property Type="Decimal" Name="Purchase_Rate" Nullable="false" Precision="19" Scale="4" />
+          <Property Type="Decimal" Name="Sell_Rate" Nullable="false" Precision="19" Scale="4" />
+          <Property Type="Binary" Name="ProductImage" MaxLength="Max" FixedLength="false" />
+          <Property Type="String" Name="Note" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="Branch">
+          <Key>
+            <PropertyRef Name="BranchSlNo" />
+          </Key>
+          <Property Type="Int32" Name="BranchSlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="Company_SlNo" Nullable="false" />
+          <Property Type="Int32" Name="BankSlNo" Nullable="false" />
+          <Property Type="String" Name="BranchName" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Address" Nullable="false" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Phone" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Mobile" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Note" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Status" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        <EntityType Name="Bank">
+          <Key>
+            <PropertyRef Name="BankSlNo" />
+          </Key>
+          <Property Type="Int32" Name="BankSlNo" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="Company_SlNo" Nullable="false" />
+          <Property Type="String" Name="BankName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Note" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Status" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+          <Property Type="String" Name="Creator" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreationDate" Precision="3" />
+          <Property Type="String" Name="Modifier" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ModificationDate" Precision="3" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="POSModelStoreContainer" CdmEntityContainer="POSEntities">
+          <EntitySetMapping Name="Companies">
+            <EntityTypeMapping TypeName="POSModel.Company">
+              <MappingFragment StoreEntitySet="Company">
+                <ScalarProperty Name="Company_Logo" ColumnName="Company_Logo" />
+                <ScalarProperty Name="Company_Description" ColumnName="Company_Description" />
+                <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="Company_SlNo" ColumnName="Company_SlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CompanyBranches">
+            <EntityTypeMapping TypeName="POSModel.CompanyBranch">
+              <MappingFragment StoreEntitySet="CompanyBranch">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Branch_Descriptiopn" ColumnName="Branch_Descriptiopn" />
+                <ScalarProperty Name="Branch_Name" ColumnName="Branch_Name" />
+                <ScalarProperty Name="Branch_ID" ColumnName="Branch_ID" />
+                <ScalarProperty Name="Branch_SlNo" ColumnName="Branch_SlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustomerInfoes">
+            <EntityTypeMapping TypeName="POSModel.CustomerInfo">
+              <MappingFragment StoreEntitySet="CustomerInfo">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DistributorPoint" ColumnName="DistributorPoint" />
+                <ScalarProperty Name="DiscountPercent" ColumnName="DiscountPercent" />
+                <ScalarProperty Name="VATRegNo" ColumnName="VATRegNo" />
+                <ScalarProperty Name="eMail" ColumnName="eMail" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+                <ScalarProperty Name="Propietor" ColumnName="Propietor" />
+                <ScalarProperty Name="CustomerType" ColumnName="CustomerType" />
+                <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+                <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+                <ScalarProperty Name="CustomerSlNo" ColumnName="CustomerSlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PaymentTypes">
+            <EntityTypeMapping TypeName="POSModel.PaymentType">
+              <MappingFragment StoreEntitySet="PaymentType">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="PaymentTypeName" ColumnName="PaymentTypeName" />
+                <ScalarProperty Name="PaymentTypeSlNo" ColumnName="PaymentTypeSlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategories">
+            <EntityTypeMapping TypeName="POSModel.ProductCategory">
+              <MappingFragment StoreEntitySet="ProductCategory">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ProductCategory_Name" ColumnName="ProductCategory_Name" />
+                <ScalarProperty Name="ProductCategory_SlNo" ColumnName="ProductCategory_SlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductInfoes">
+            <EntityTypeMapping TypeName="POSModel.ProductInfo">
+              <MappingFragment StoreEntitySet="ProductInfo">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="ProductImage" ColumnName="ProductImage" />
+                <ScalarProperty Name="Sell_Rate" ColumnName="Sell_Rate" />
+                <ScalarProperty Name="Purchase_Rate" ColumnName="Purchase_Rate" />
+                <ScalarProperty Name="ReorderLevel" ColumnName="ReorderLevel" />
+                <ScalarProperty Name="ProductCategory_SlNo" ColumnName="ProductCategory_SlNo" />
+                <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+                <ScalarProperty Name="Product_Barcode" ColumnName="Product_Barcode" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+                <ScalarProperty Name="Product_SlNo" ColumnName="Product_SlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Branches">
+            <EntityTypeMapping TypeName="POSModel.Branch">
+              <MappingFragment StoreEntitySet="Branch">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+                <ScalarProperty Name="BankSlNo" ColumnName="BankSlNo" />
+                <ScalarProperty Name="Company_SlNo" ColumnName="Company_SlNo" />
+                <ScalarProperty Name="BranchSlNo" ColumnName="BranchSlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Banks">
+            <EntityTypeMapping TypeName="POSModel.Bank">
+              <MappingFragment StoreEntitySet="Bank">
+                <ScalarProperty Name="ModificationDate" ColumnName="ModificationDate" />
+                <ScalarProperty Name="Modifier" ColumnName="Modifier" />
+                <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+                <ScalarProperty Name="Creator" ColumnName="Creator" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Note" ColumnName="Note" />
+                <ScalarProperty Name="BankName" ColumnName="BankName" />
+                <ScalarProperty Name="Company_SlNo" ColumnName="Company_SlNo" />
+                <ScalarProperty Name="BankSlNo" ColumnName="BankSlNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

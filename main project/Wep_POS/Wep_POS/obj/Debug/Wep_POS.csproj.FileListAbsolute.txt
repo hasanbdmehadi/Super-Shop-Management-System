@@ -1,0 +1,581 @@
+D:\projects\1st\Wep_POS\Wep_POS\bin\Wep_POS.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+D:\projects\1st\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\EntityFramework.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\WebGrease.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+D:\projects\1st\Wep_POS\Wep_POS\bin\EntityFramework.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+D:\projects\1st\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\projects\1st\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+D:\projects\1st\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+H:\Wep_POS\Wep_POS\bin\Wep_POS.dll
+H:\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+H:\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+H:\Wep_POS\Wep_POS\bin\EntityFramework.dll
+H:\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+H:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+H:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+H:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+H:\Wep_POS\Wep_POS\bin\WebGrease.dll
+H:\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+H:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+H:\Wep_POS\Wep_POS\bin\EntityFramework.xml
+H:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+H:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+H:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+H:\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+H:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+H:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+H:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+H:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.csprojResolveAssemblyReference.cache
+H:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+H:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+I:\Wep_POS\Wep_POS\bin\Wep_POS.dll
+I:\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+I:\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+I:\Wep_POS\Wep_POS\bin\EntityFramework.dll
+I:\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+I:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+I:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+I:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+I:\Wep_POS\Wep_POS\bin\WebGrease.dll
+I:\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+I:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+I:\Wep_POS\Wep_POS\bin\EntityFramework.xml
+I:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+I:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+I:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+I:\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+I:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+I:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+I:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+I:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+I:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Wep_POS.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\EntityFramework.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\WebGrease.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\EntityFramework.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+C:\Users\linktechbd\Desktop\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Wep_POS.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\EntityFramework.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\WebGrease.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\EntityFramework.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+E:\Rezaul Islam\Class\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Wep_POS.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\EntityFramework.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\WebGrease.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\EntityFramework.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+E:\Rezaul\LUT- Class\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\WebGrease.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Class\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+E:\Class\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\WebGrease.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.csprojResolveAssemblyReference.cache
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+C:\Users\linktechbd\Desktop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\WebGrease.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\EntityFramework.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.csprojResolveAssemblyReference.cache
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+D:\MVC workshop\22.6.2014\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Wep_POS.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\EntityFramework.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\WebGrease.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+G:\Design web_pos\Wep_POS\Wep_POS\bin\EntityFramework.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+G:\Design web_pos\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Design web_pos\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+G:\Design web_pos\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+G:\Design web_pos\Wep_POS\Wep_POS\obj\Debug\Wep_POS.csprojResolveAssemblyReference.cache
+E:\Wep_POS\Wep_POS\bin\Wep_POS.dll
+E:\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+E:\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Wep_POS\Wep_POS\bin\EntityFramework.dll
+E:\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+E:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+E:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+E:\Wep_POS\Wep_POS\bin\WebGrease.dll
+E:\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+E:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+E:\Wep_POS\Wep_POS\bin\EntityFramework.xml
+E:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+E:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+E:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+E:\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+E:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+E:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+E:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
+E:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.csprojResolveAssemblyReference.cache
+G:\Wep_POS\Wep_POS\bin\Wep_POS.dll
+G:\Wep_POS\Wep_POS\bin\Wep_POS.pdb
+G:\Wep_POS\Wep_POS\bin\Antlr3.Runtime.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.dll
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Wep_POS\Wep_POS\bin\EntityFramework.dll
+G:\Wep_POS\Wep_POS\bin\Microsoft.Web.Infrastructure.dll
+G:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.dll
+G:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Helpers.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Http.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Mvc.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Optimization.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.Razor.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.dll
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.dll
+G:\Wep_POS\Wep_POS\bin\WebGrease.dll
+G:\Wep_POS\Wep_POS\bin\WebMatrix.Data.dll
+G:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.dll
+G:\Wep_POS\Wep_POS\bin\EntityFramework.xml
+G:\Wep_POS\Wep_POS\bin\Newtonsoft.Json.xml
+G:\Wep_POS\Wep_POS\bin\System.Net.Http.Formatting.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.Helpers.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.Http.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.Http.WebHost.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.Mvc.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.Razor.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Deployment.xml
+G:\Wep_POS\Wep_POS\bin\System.Web.WebPages.Razor.xml
+G:\Wep_POS\Wep_POS\bin\WebMatrix.Data.xml
+G:\Wep_POS\Wep_POS\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\Wep_POS\Wep_POS\bin\WebMatrix.WebData.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.AspNet.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.Core.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OAuth.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.xml
+G:\Wep_POS\Wep_POS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.dll
+G:\Wep_POS\Wep_POS\obj\Debug\Wep_POS.pdb
